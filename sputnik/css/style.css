@@ -1,0 +1,113 @@
+/* body,
+input,
+textarea,
+button,
+h1,
+h2,
+h3,
+h4 {
+  font-family: "Roboto";
+}
+input[type="text"],
+input[type=password] {
+  background: #ffffff;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+  border: none;
+  color: #333;
+  display: block;
+  font-family: "Roboto";
+  font-size: 15px;
+  margin-bottom: 10px;
+  padding: 10px;
+  width: 100%;
+}
+input[disabled]:hover,
+select[disabled]:hover {
+  border-color: #e5e5e5 !important;
+}
+
+@font-face {
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 300;
+  src: url('fonts/roboto-v15-cyrillic_latin-300.eot');
+ 
+  src: local('Roboto Light'), local('Roboto-Light'), url('fonts/roboto-v15-cyrillic_latin-300.eot?#iefix') format('embedded-opentype'),  url('fonts/roboto-v15-cyrillic_latin-300.woff2') format('woff2'), 
+}
+
+@font-face {
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 400;
+  src: url('fonts/roboto-v15-cyrillic_latin-regular.eot');
+ 
+  src: local('Roboto'), local('Roboto-Regular'), url('fonts/roboto-v15-cyrillic_latin-regular.eot?#iefix') format('embedded-opentype'),  url('fonts/roboto-v15-cyrillic_latin-regular.woff2') format('woff2'), 
+}
+
+@font-face {
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 500;
+  src: url('fonts/roboto-v15-cyrillic_latin-500.eot');
+  
+  src: local('Roboto Medium'), local('Roboto-Medium'), url('fonts/roboto-v15-cyrillic_latin-500.eot?#iefix') format('embedded-opentype'),  url('fonts/roboto-v15-cyrillic_latin-500.woff2') format('woff2'),  url('fonts/roboto-v15-cyrillic_latin-500.woff') format('woff'), url('fonts/roboto-v15-cyrillic_latin-500.ttf') format('truetype'), url('fonts/roboto-v15-cyrillic_latin-500.svg#Roboto') format('svg');
+ */
+
+html {
+  box-sizing: border-box;
+}
+
+*,
+*::after,
+*::before {
+  box-sizing: inherit;
+}
+h3 {
+  font-family: "Roboto";
+  font-size: 36px;
+  font-weight: 500;
+  line-height: 46.8px;
+  color: #373737;
+
+  /* font: normal bold 36px/46,8px Roboto; */
+}
+body {
+  font-family: "Roboto";
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 23.4px;
+  min-width: 300px;
+  overflow-x: hidden;
+}
+
+.container {
+  padding: 0 10px;
+}
+
+header,
+main,
+footer {
+  min-width: 100%;
+}
+
+.logo {
+  padding-top: 20px;
+  margin-bottom: 93px;
+}
+
+.affiche__link {
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 46, 8px;
+  color: #373737;
+
+  text-decoration: none;
+  color: #00a0ff;
+}
+
+.affiche__item-icons {
+  width: 26px;
+  height: 27px;
+}
