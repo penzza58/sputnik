@@ -1,62 +1,21 @@
-/* body,
-input,
-textarea,
-button,
-h1,
-h2,
-h3,
-h4 {
-  font-family: "Roboto";
-}
-input[type="text"],
-input[type=password] {
-  background: #ffffff;
-  -webkit-box-sizing: border-box;
-  -moz-box-sizing: border-box;
-  box-sizing: border-box;
-  border: none;
-  color: #333;
-  display: block;
-  font-family: "Roboto";
-  font-size: 15px;
-  margin-bottom: 10px;
-  padding: 10px;
-  width: 100%;
-}
-input[disabled]:hover,
-select[disabled]:hover {
-  border-color: #e5e5e5 !important;
-}
-
 @font-face {
-  font-family: 'Roboto';
-  font-style: normal;
-  font-weight: 300;
-  src: url('fonts/roboto-v15-cyrillic_latin-300.eot');
- 
-  src: local('Roboto Light'), local('Roboto-Light'), url('fonts/roboto-v15-cyrillic_latin-300.eot?#iefix') format('embedded-opentype'),  url('fonts/roboto-v15-cyrillic_latin-300.woff2') format('woff2'), 
-}
-
-@font-face {
-  font-family: 'Roboto';
+  font-family: "Roboto", sans-serif;
   font-style: normal;
   font-weight: 400;
-  src: url('fonts/roboto-v15-cyrillic_latin-regular.eot');
- 
-  src: local('Roboto'), local('Roboto-Regular'), url('fonts/roboto-v15-cyrillic_latin-regular.eot?#iefix') format('embedded-opentype'),  url('fonts/roboto-v15-cyrillic_latin-regular.woff2') format('woff2'), 
+  src: url("/fonts/Roboto-Regular.ttf");
 }
 
 @font-face {
-  font-family: 'Roboto';
+  font-family: "Roboto", sans-serif;
   font-style: normal;
   font-weight: 500;
-  src: url('fonts/roboto-v15-cyrillic_latin-500.eot');
-  
-  src: local('Roboto Medium'), local('Roboto-Medium'), url('fonts/roboto-v15-cyrillic_latin-500.eot?#iefix') format('embedded-opentype'),  url('fonts/roboto-v15-cyrillic_latin-500.woff2') format('woff2'),  url('fonts/roboto-v15-cyrillic_latin-500.woff') format('woff'), url('fonts/roboto-v15-cyrillic_latin-500.ttf') format('truetype'), url('fonts/roboto-v15-cyrillic_latin-500.svg#Roboto') format('svg');
- */
+  src: url("/fonts/Roboto-Regular.ttf");
+}
 
 html {
   box-sizing: border-box;
+  font: 400 18px/23.4px "Roboto", sans-serif;
+  /* font: 500 36/46.8 'Roboto', sans-serif; */
 }
 
 *,
@@ -64,22 +23,15 @@ html {
 *::before {
   box-sizing: inherit;
 }
-h3 {
-  font-family: "Roboto";
-  font-size: 36px;
-  font-weight: 500;
-  line-height: 46.8px;
-  color: #373737;
 
-  /* font: normal bold 36px/46,8px Roboto; */
+h3 {
+  font: 500 36px/46.8px "Roboto", sans-serif;
+  color: #373737;
 }
 body {
-  font-family: "Roboto";
-  font-size: 18px;
-  font-weight: 400;
-  line-height: 23.4px;
-  min-width: 300px;
+  min-width: 320px;
   overflow-x: hidden;
+  margin: 0 auto;
 }
 
 .container {
@@ -92,22 +44,104 @@ footer {
   min-width: 100%;
 }
 
-.logo {
+/* .logo {
+  height: px;
   padding-top: 20px;
   margin-bottom: 93px;
+} */
+.logo__link {
+  display: block;
+  width: 77px;
+  height: 60px;
+  min-height: 60px;
+  margin: 20px 0 93px;
+}
+
+.affiche__img {
+  border-top: 10px;
 }
 
 .affiche__link {
-  font-size: 16px;
-  font-weight: 400;
-  line-height: 46, 8px;
-  color: #373737;
-
-  text-decoration: none;
-  color: #00a0ff;
+  margin-bottom: -9px;
 }
 
-.affiche__item-icons {
+.affiche__title {
+  margin-bottom: 61px;
+}
+
+.affiche__link-text {
+  font-size: 16px;
+  line-height: 19px;
+  text-decoration: none;
+  letter-spacing: 0.05em;
+  text-transform: uppercase;
+  color: #00a0ff;
+  padding-bottom: 30px;
+}
+
+.affiche__icons {
+  position: absolute;
   width: 26px;
   height: 27px;
+  left: 264px;
+  top: 10px;
 }
+
+.item {
+  border-radius: 10px;
+  border: 1px solid #e0e0e0;
+}
+
+.description__card {
+  display: flex;
+  flex-direction: column;
+  padding: 20px;
+}
+
+.date {
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 16.8px;
+  text-decoration: none;
+  color: #00a0ff;
+  text-transform: uppercase;
+}
+
+.name {
+  font-size: 26px;
+  line-height: 31.2px;
+  padding: 20px 0;
+  margin: 0 0 30px;
+}
+
+.btn {
+  width: 185.55px;
+  height: 27px;
+  border-radius: 10px;
+  background: #3faade;
+  padding: 5px 10px;
+}
+
+.description__place-text {
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 16.8px;
+  color: #fff;
+}
+
+.icon {
+  width: 15px;
+  height: 15px;
+}
+
+.clock {
+}
+
+/* .place {
+  display: block;
+  width: 15px;
+  height: 15px;
+  background: violet;
+  background-image: url(/images/icons/icon-place.svg);
+  background-repeat: no-repeat;
+} */

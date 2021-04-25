@@ -6,12 +6,10 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>header</title>
     <link rel="preconnect" href="https://fonts.gstatic.com" />
-    <link
-      href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500&display=swap"
-      rel="stylesheet"
-    />
-    <link rel="stylesheet" href="/css/owl.carousel.css" />
-    <link rel="stylesheet" href="/css/style.css" />
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500&display=swap" rel="stylesheet"/>
+    <link href="http://maxcdn.bootstrapcdn.com/font-awesome/4.1.0/css/font-awesome.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="./css/owl.carousel.css" />
+    <link rel="stylesheet" href="./css/style.css" />
   </head>
   <body>
     <header class="header">
@@ -19,7 +17,7 @@
         <div class="header__inner">
           <div class="logo">
             <a class="logo__link" href="#">
-              <img class="logo__link-img" src="/images/logo.png" />
+              <img class="logo__link-img" src="./images/logo.png" />
             </a>
           </div>
           <!-- <div class="menu">
@@ -50,13 +48,16 @@
     <section class="affiche">
       <div class="container">
         <div class="affiche__inner">
-          <a class="affiche__link" href="#">Афиша</a>
-          <h3>
-            Все самое<br />
-            интересное<br />
-            в Спутнике!
-          </h3>
-
+          <div class="affiche__link">
+            <a class="affiche__link-text" href="#">Афиша</a>
+          </div>
+          <div class="affiche__title">
+            <h3>
+              Все самое<br />
+              интересное<br />
+              в Спутнике!
+            </h3>
+          </div>
           <!-- <div>
             <img class="affiche__img" src="/img/affiche-img01.png" alt="affiche" />
           </div> -->
@@ -65,75 +66,82 @@
               <div class="owl-stage">
                 <div class="owl-item active">
                   <div class="item old">
-                    <a href="#" class="img-block">
-                      <div class="cover-img">
-                        <img src="/images/affiche-img01.png" />
-                      </div>
-                      <div class="affiche__item-icons">
+                    <a href="#" class="img__block">
+                      <div class="affiche__icons">
                         <img
-                          class="affiche__icon"
-                          src="/images/icon-years.svg"
+                          class="affiche__icon-img"
+                          src="./images/icon-years.svg"
                           alt="icon"
                         />
                       </div>
+                      <div class="affiche__img">
+                        <img src="./images/affiche-img01.png" />
+                      </div>
                     </a>
-                    <div class="description-aff">
-                      <span class="date">14 марта</span>
-                      <span class="name">Йога</span>
-                      <span class="place">Набережная, 11:00—17:00</span>
+                    <div class="description__card">
+                      <a class="date" href="#">14 марта</a>
+                      <h3 class="name">Йога</h3>
+                      <div class="description__place btn">
+                        <span class="description__place-text"><img class="clock icon" src="/sputnik/images/icons/icon-clock.svg" alt="clock">18:00</span>
+                        <span class="description__place-text"><img class="place icon" src="/sputnik/images/icons/icon-place.svg" alt="place">Набережная</span>
+                      </div>
                     </div>
                   </div>
                 </div>
                 <div class="owl-item">
                   <div class="item old">
-                    <a href="#" class="img-block">
-                      <div class="cover-img">
-                        <img src="/images/affiche-img01.png" />
-                      </div>
-                      <div class="affiche__item-icons">
+                    <a href="#" class="img__block">
+                      <div class="affiche__icons">
                         <img
-                          class="affiche__icon"
-                          src="/images/icon-years.svg"
+                          class="affiche__icon-img"
+                          src="./images/icon-years.svg"
                           alt="icon"
                         />
                       </div>
+                      <div class="affiche__img">
+                        <img src="./images/affiche-img01.png" />
+                      </div>
                     </a>
-                    <div class="description-aff">
-                      <span class="date">14 марта</span>
-                      <span class="name">Йога</span>
-                      <span class="place">Набережная, 11:00—17:00</span>
+                    <div class="description__card">
+                      <a class="date" href="#">14 марта</a>
+                      <h3 class="name">Йога</h3>
+                      <div class="description__place btn">
+                        <span class="description__place-text"><img class="clock icon" src="/sputnik/images/icons/icon-clock.svg" alt="clock">18:00</span>
+                        <span class="description__place-text"><img class="place icon" src="/sputnik/images/icons/icon-place.svg" alt="place">Набережная</span>
+                      </div>
                     </div>
                   </div>
                 </div>
                 <div class="owl-item">
                   <div class="item old">
-                    <a href="#" class="img-block">
-                      <div class="cover-img">
-                        <img src="/images/affiche-img01.png" />
-                      </div>
-                      <div class="affiche__item-icons">
+                    <a href="#" class="img__block">
+                      <div class="affiche__icons">
                         <img
-                          class="affiche__icon"
-                          src="/images/icon-years.svg"
+                          class="affiche__icon-img"
+                          src="./images/icon-years.svg"
                           alt="icon"
                         />
                       </div>
+                      <div class="affiche__img">
+                        <img src="./images/affiche-img01.png" />
+                      </div>
                     </a>
-                    <div class="description-aff">
-                      <span class="date">14 марта</span>
-                      <span class="name">Йога</span>
-                      <span class="place">Набережная, 11:00—17:00</span>
+                    <div class="description__card">
+                      <a class="date" href="#">14 марта</a>
+                      <h3 class="name">Йога</h3>
+                      <div class="description__place btn">
+                        <span class="description__place-text"><img class="clock icon" src="/sputnik/images/icons/icon-clock.svg" alt="clock">18:00</span>
+                        <span class="description__place-text"><img class="place icon" src="/sputnik/images/icons/icon-place.svg" alt="place">Набережная</span>
+                      </div>
                     </div>
                   </div>
                 </div>
               </div>
             </div>
             <div class="owl-nav">
-              <div class="owl-prev disabled">
-                <i class="fa fa-4x fa-angle-left"></i>
+              <div class="owl-prev">
               </div>
               <div class="owl-next">
-                <i class="fa fa-4x fa-angle-right"></i>
               </div>
             </div>
             <div class="owl-dots">
@@ -145,9 +153,9 @@
         </div>
       </div>
     </section>
-<section></section>
+    <section></section>
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
-    <script src="/js/owl.carousel.js"></script>
-    <script src="/js/main.js"></script>
+    <script src="./js/owl.carousel.js"></script>
+    <script src="./js/main.js"></script>
   </body>
 </html>
