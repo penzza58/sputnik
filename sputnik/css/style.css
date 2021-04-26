@@ -23,11 +23,17 @@ html {
 *::before {
   box-sizing: inherit;
 }
-
-h3 {
-  font: 500 36px/46.8px "Roboto", sans-serif;
+ 
+h1 {
+  font: 500 26px/31.2px "Roboto", sans-serif;
   color: #373737;
 }
+h2 {
+  font: 400 16px/19px "Roboto", sans-serif;
+  letter-spacing: 0.05em;
+  text-transform: uppercase;
+}
+
 body {
   min-width: 320px;
   overflow-x: hidden;
@@ -44,11 +50,6 @@ footer {
   min-width: 100%;
 }
 
-/* .logo {
-  height: px;
-  padding-top: 20px;
-  margin-bottom: 93px;
-} */
 .logo__link {
   display: block;
   width: 77px;
@@ -57,16 +58,29 @@ footer {
   margin: 20px 0 93px;
 }
 
+.color-text {
+  color: #00A0FF;
+}
+
+.color__gray {
+  color: #A6A6A6;
+}
+.color__black {
+  color: #373737;
+
+}
 .affiche__img {
   border-top: 10px;
 }
 
-.affiche__link {
-  margin-bottom: -9px;
+.title__mobile {
+font-size: 36px;
+line-height: 47px;
+letter-spacing: 0em;
 }
 
 .affiche__title {
-  margin-bottom: 61px;
+  margin-bottom: 58px;
 }
 
 .affiche__link-text {
@@ -76,7 +90,6 @@ footer {
   letter-spacing: 0.05em;
   text-transform: uppercase;
   color: #00a0ff;
-  padding-bottom: 30px;
 }
 
 .affiche__icons {
@@ -108,13 +121,15 @@ footer {
 }
 
 .name {
-  font-size: 26px;
-  line-height: 31.2px;
+
   padding: 20px 0;
-  margin: 0 0 30px;
+  margin: 0 0 32px;
 }
 
 .btn {
+  display: inline-flex;
+  justify-content: space-between;
+  align-items: center;
   width: 185.55px;
   height: 27px;
   border-radius: 10px;
@@ -123,6 +138,8 @@ footer {
 }
 
 .description__place-text {
+  display: inline-flex;
+  align-items: center;
   font-weight: 500;
   font-size: 14px;
   line-height: 16.8px;
@@ -132,6 +149,40 @@ footer {
 .icon {
   width: 15px;
   height: 15px;
+  padding-right: 5px;
+}
+.left {
+  padding-right: 10px;
+}
+
+.owl-item__title {
+  margin-bottom: 28px;
+}
+.description__title {
+  margin: 0;
+  padding-bottom: 42px;
+}
+.card {
+  display: flex;
+  flex-direction: column;
+  height: 120px;
+  padding: 10px 20px;
+}
+
+.old {
+  margin-bottom: 80px;
+}
+.park__inner {
+  height: 1040px;
+  width: 320px;
+  background: #F2FAFF;
+  border-radius: 30px;
+  margin: 0;
+}
+.item__title {
+  display: block;
+  margin: 0;
+  padding-top: 40px;
 }
 
 
