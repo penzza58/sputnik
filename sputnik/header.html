@@ -50,7 +50,7 @@
   <section class="affiche">
     <div class="container">
       <div class="affiche__inner">
-        <h2 class="color-text">Афиша</h2>
+        <h2 class="color__blue"><a class="color__blue title-link" href="#">Афиша</a></h2>
         <div class="affiche__title">
           <h1 class="title__mobile">
             Все самое<br />
@@ -61,7 +61,7 @@
         <!-- <div>
             <img class="affiche__img" src="/img/affiche-img01.png" alt="affiche" />
           </div> -->
-        <div class="owl-carousel owl-main-affiche owl-loaded owl-drag">
+        <div id="slider-one" class="owl-carousel owl-main-affiche owl-loaded owl-drag">
           <div class="owl-stage-outer">
             <div class="owl-stage">
               <div class="owl-item active">
@@ -191,21 +191,41 @@
   <section class="description__park">
     <div class="container-park">
       <div class="park__inner">
-        <div class="owl-carousel owl-main-affiche owl-loaded owl-drag">
-          <div class="owl-stage-outer">
-            <div class="owl-stage">
-              <div class="owl-item active">
-                <div class="item__park">
-                  <h2 class="item__title color-text">Парк Спутника</h2>
-                  <div class="description__park-title">
-                    <h1 class="description__title color__black">Больше пространства для развлечений</h1>
-                    <p>Парк Спутника является одним из самых узнаваемых, красивых и комфортабельных мест Пензенской
-                      области с развитой инфраструктурой и незабываемой атмосферой!</p>
-                    <div class="">
-                      <img class="" src="/sputnik/images/park-img1.png" alt="">Что-то про Парк Спутника
+        <div class="description__park-link">
+          <h2 class="item__title color__blue"><a class="color__blue title-link" href="#">Парк Спутника</a></h2>
+        </div>
+        <div class="description__park-title">
+          <h1 class="park__title color__black">Большe <br> пространства <br> для развлечений</h1>
+          <p class="park__text">Парк Спутника является одним из самых узнаваемых, красивых и комфортабельных мест <br>
+            Пензенской
+            области <br> с развитой инфраструктурой и <br>
+            незабываемой атмосферой!</p>
+        </div>
+        <div class="wrapper">
+          <div id="slider-two" class="owl-carousel owl-main-affiche owl-loaded owl-drag">
+            <div class="owl-stage-outer">
+              <div class="owl-stage">
+                <div class="owl-item">
+                  <div class="item__park">
+                    <div class="park__img">
+                      <img class="img__slider" src="/sputnik/images/park-img1.png" alt="img">
                     </div>
-                    <div class="item__link-btn">
-                      <a class="link__btn" href="#">Все про парк</a>
+                    <div class="park__bottom-text">
+                      <p class="bottom__text">
+                        Что-то про Парк Спутника
+                      </p>
+                    </div>
+                  </div>
+                </div>
+                <div class="owl-item">
+                  <div class="item__park">
+                    <div class="park__img">
+                      <img class="img__slider" src="/sputnik/images/park-img2.png" alt="img">
+                    </div>
+                    <div class="park__bottom-text">
+                      <p class="bottom__text">
+                        Что-то про Парк Спутника
+                      </p>
                     </div>
                   </div>
                 </div>
@@ -213,8 +233,21 @@
             </div>
           </div>
         </div>
+        <div class="item__link-btn">
+          <a class="link__btn" href="#">Все про парк</a>
+          <img class="link__arrow" src="/sputnik/images/arrow1.svg" alt="arrow">
+        </div>
       </div>
     </div>
+  </section>
+  <section class="description__info">
+    <div class="container">
+      <div class="info__inner">
+        <div class="info__title">
+          <a class="link__info" href="#">Инфраструктура</a>
+        </div>
+        <h1 class="info__title-text">Все необходимое рядом</h1>
+      </div>
     </div>
   </section>
   <footer></footer>

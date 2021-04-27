@@ -1,11 +1,33 @@
 $(document).ready(function(){
-    const slider = $(".owl-carousel").owlCarousel({
+    $("#slider-one").owlCarousel({
         loop:true,
         margin:10,
         nav:true,
         dots:true,
         navText: [],
         autoplay:false,
+        responsive:{
+            0:{
+                items:1
+            },
+            600:{
+                items:2
+            },
+            1000:{
+                items:3
+            }
+        }
+    });
+    $("#slider-two").owlCarousel({
+        loop:true,
+        items:1,
+        margin:10,
+        autoHeight:true,
+        nav:true,
+        dots:true,
+        navText: [],
+        autoplay:false,
+        rtl:true,
         responsive:{
             0:{
                 items:1
