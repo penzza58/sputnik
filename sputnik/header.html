@@ -14,15 +14,16 @@
 </head>
 
 <body>
-  <header class="header">
-    <div class="container">
-      <div class="header__inner">
-        <div class="logo">
-          <a class="logo__link" href="#">
-            <img class="logo__link-img" src="./images/logo.png" />
-          </a>
-        </div>
-        <!-- <div class="menu">
+  <main>
+    <header class="header">
+      <div class="container">
+        <div class="header__inner">
+          <div class="logo">
+            <a class="logo__link" href="#">
+              <img class="logo__link-img" src="./images/logo.png" />
+            </a>
+          </div>
+          <!-- <div class="menu">
             <a class="mobile-menu" href="#" id="pull" data-toggle="dropdown">
               <span></span><i class="menu-bars"></i>
             </a>
@@ -44,212 +45,298 @@
               </nav>
             </div>
           </div> -->
-      </div>
-    </div>
-  </header>
-  <section class="affiche">
-    <div class="container">
-      <div class="affiche__inner">
-        <h2 class="color__blue"><a class="color__blue title-link" href="#">Афиша</a></h2>
-        <div class="affiche__title">
-          <h1 class="title__mobile">
-            Все самое<br />
-            интересное<br />
-            в Спутнике!
-          </h1>
         </div>
-        <!-- <div>
+      </div>
+    </header>
+    <section class="affiche">
+      <div class="container">
+        <div class="affiche__inner">
+          <h2 class="color__blue"><a class="color__blue title-link" href="#">Афиша</a></h2>
+          <div class="affiche__title">
+            <h1 class="title__mobile">
+              Все самое<br />
+              интересное<br />
+              в Спутнике!
+            </h1>
+          </div>
+          <!-- <div>
             <img class="affiche__img" src="/img/affiche-img01.png" alt="affiche" />
           </div> -->
-        <div id="slider-one" class="owl-carousel owl-main-affiche owl-loaded owl-drag">
-          <div class="owl-stage-outer">
-            <div class="owl-stage">
-              <div class="owl-item active">
-                <div class="item">
-                  <a href="#" class="img__block">
-                    <div class="affiche__icons">
-                      <img class="affiche__icon-img" src="./images/icon-years.svg" alt="icon" />
-                    </div>
-                    <div class="affiche__img">
-                      <img src="./images/affiche-img01.png" />
-                    </div>
-                  </a>
-                  <div class="description__card">
-                    <a class="date" href="#">14 марта</a>
-                    <h1 class="name">Йога</h1>
-                    <div class="description__place btn">
-                      <div class="description__place-text left">
-                        <img class="clock icon" src="/sputnik/images/icons/icon-clock.svg" alt="clock">18:00
-                      </div>
-                      <div class="description__place-text right">
-                        <img class="place icon" src="/sputnik/images/icons/icon-place.svg" alt="place">Набережная
-                      </div>
-                    </div>
-                  </div>
-                </div>
-              </div>
-              <div class="owl-item">
-                <div class="item">
-                  <a href="#" class="img__block">
-                    <div class="affiche__icons">
-                      <img class="affiche__icon-img" src="./images/icon-years.svg" alt="icon" />
-                    </div>
-                    <div class="affiche__img">
-                      <img src="./images/affiche-img01.png" />
-                    </div>
-                  </a>
-                  <div class="description__card">
-                    <a class="date" href="#">14 марта</a>
-                    <h3 class="name">Йога</h3>
-                    <div class="description__place btn">
-                      <span class="description__place-text"><img class="clock icon"
-                          src="/sputnik/images/icons/icon-clock.svg" alt="clock">18:00</span>
-                      <span class="description__place-text"><img class="place icon"
-                          src="/sputnik/images/icons/icon-place.svg" alt="place">Набережная</span>
-                    </div>
-                  </div>
-                </div>
-              </div>
-              <div class="owl-item">
-                <div class="item">
-                  <a href="#" class="img__block">
-                    <div class="affiche__icons">
-                      <img class="affiche__icon-img" src="./images/icon-years.svg" alt="icon" />
-                    </div>
-                    <div class="affiche__img">
-                      <img src="./images/affiche-img01.png" />
-                    </div>
-                  </a>
-                  <div class="description__card">
-                    <a class="date" href="#">14 марта</a>
-                    <h3 class="name">Йога</h3>
-                    <div class="description__place btn">
-                      <span class="description__place-text"><img class="clock icon"
-                          src="/sputnik/images/icons/icon-clock.svg" alt="clock">18:00</span>
-                      <span class="description__place-text"><img class="place icon"
-                          src="/sputnik/images/icons/icon-place.svg" alt="place">Набережная</span>
-                    </div>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-          <div class="owl-nav">
-            <div class="owl-prev">
-            </div>
-            <div class="owl-next">
-            </div>
-          </div>
-          <div class="owl-dots">
-            <div class="owl-dot active"><span></span></div>
-            <div class="owl-dot"><span></span></div>
-            <div class="owl-dot"><span></span></div>
-          </div>
-        </div>
-      </div>
-    </div>
-  </section>
-  <section class="description__events">
-    <div class="container">
-      <div class="events__inner">
-        <div class="owl-carousel owl-main-affiche owl-loaded owl-drag">
-          <div class="owl-stage-outer">
-            <div class="owl-stage">
-              <div class="owl-item active">
-                <h2 class="owl-item__title color__gray">Сегодня в Парке</h2>
-                <div class="item old">
-                  <div class="description__cards card">
-                    <h1 class="description__title color__black">Широкая масленица</h1>
-                    <div class="description__place btn">
-                      <div class="description__place-text left">
-                        <img class="clock icon" src="/sputnik/images/icons/icon-clock.svg" alt="clock">18:00
-                      </div>
-                      <div class="description__place-text right">
-                        <img class="place icon" src="/sputnik/images/icons/icon-place.svg" alt="place">Набережная
-                      </div>
-                    </div>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-          <div class="owl-nav">
-            <div class="owl-prev">
-            </div>
-            <div class="owl-next">
-            </div>
-          </div>
-          <div class="owl-dots">
-            <div class="owl-dot active"><span></span></div>
-            <div class="owl-dot"><span></span></div>
-            <div class="owl-dot"><span></span></div>
-          </div>
-        </div>
-      </div>
-    </div>
-  </section>
-  <section class="description__park">
-    <div class="container-park">
-      <div class="park__inner">
-        <div class="description__park-link">
-          <h2 class="item__title color__blue"><a class="color__blue title-link" href="#">Парк Спутника</a></h2>
-        </div>
-        <div class="description__park-title">
-          <h1 class="park__title color__black">Большe <br> пространства <br> для развлечений</h1>
-          <p class="park__text">Парк Спутника является одним из самых узнаваемых, красивых и комфортабельных мест <br>
-            Пензенской
-            области <br> с развитой инфраструктурой и <br>
-            незабываемой атмосферой!</p>
-        </div>
-        <div class="wrapper">
-          <div id="slider-two" class="owl-carousel owl-main-affiche owl-loaded owl-drag">
+          <div id="slider-one" class="owl-carousel owl-main-affiche owl-loaded owl-drag">
             <div class="owl-stage-outer">
               <div class="owl-stage">
-                <div class="owl-item">
-                  <div class="item__park">
-                    <div class="park__img">
-                      <img class="img__slider" src="/sputnik/images/park-img1.png" alt="img">
-                    </div>
-                    <div class="park__bottom-text">
-                      <p class="bottom__text">
-                        Что-то про Парк Спутника
-                      </p>
+                <div class="owl-item active">
+                  <div class="item">
+                    <a href="#" class="img__block">
+                      <div class="affiche__icons">
+                        <img class="affiche__icon-img" src="./images/icon-years.svg" alt="icon" />
+                      </div>
+                      <div class="affiche__img">
+                        <img src="./images/affiche-img01.png" />
+                      </div>
+                    </a>
+                    <div class="description__card">
+                      <a class="date" href="#">14 марта</a>
+                      <h1 class="name">Йога</h1>
+                      <div class="description__place btn">
+                        <div class="description__place-text left">
+                          <img class="clock icon" src="/sputnik/images/icons/icon-clock.svg" alt="clock">18:00
+                        </div>
+                        <div class="description__place-text right">
+                          <img class="place icon" src="/sputnik/images/icons/icon-place.svg" alt="place">Набережная
+                        </div>
+                      </div>
                     </div>
                   </div>
                 </div>
                 <div class="owl-item">
-                  <div class="item__park">
-                    <div class="park__img">
-                      <img class="img__slider" src="/sputnik/images/park-img2.png" alt="img">
+                  <div class="item">
+                    <a href="#" class="img__block">
+                      <div class="affiche__icons">
+                        <img class="affiche__icon-img" src="./images/icon-years.svg" alt="icon" />
+                      </div>
+                      <div class="affiche__img">
+                        <img src="./images/affiche-img01.png" />
+                      </div>
+                    </a>
+                    <div class="description__card">
+                      <a class="date" href="#">14 марта</a>
+                      <h3 class="name">Йога</h3>
+                      <div class="description__place btn">
+                        <span class="description__place-text"><img class="clock icon"
+                            src="/sputnik/images/icons/icon-clock.svg" alt="clock">18:00</span>
+                        <span class="description__place-text"><img class="place icon"
+                            src="/sputnik/images/icons/icon-place.svg" alt="place">Набережная</span>
+                      </div>
                     </div>
-                    <div class="park__bottom-text">
-                      <p class="bottom__text">
-                        Что-то про Парк Спутника
-                      </p>
+                  </div>
+                </div>
+                <div class="owl-item">
+                  <div class="item">
+                    <a href="#" class="img__block">
+                      <div class="affiche__icons">
+                        <img class="affiche__icon-img" src="./images/icon-years.svg" alt="icon" />
+                      </div>
+                      <div class="affiche__img">
+                        <img src="./images/affiche-img01.png" />
+                      </div>
+                    </a>
+                    <div class="description__card">
+                      <a class="date" href="#">14 марта</a>
+                      <h3 class="name">Йога</h3>
+                      <div class="description__place btn">
+                        <span class="description__place-text"><img class="clock icon"
+                            src="/sputnik/images/icons/icon-clock.svg" alt="clock">18:00</span>
+                        <span class="description__place-text"><img class="place icon"
+                            src="/sputnik/images/icons/icon-place.svg" alt="place">Набережная</span>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="owl-nav">
+              <div class="owl-prev">
+              </div>
+              <div class="owl-next">
+              </div>
+            </div>
+            <div class="owl-dots">
+              <div class="owl-dot active"><span></span></div>
+              <div class="owl-dot"><span></span></div>
+              <div class="owl-dot"><span></span></div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="description__events">
+      <div class="container">
+        <div class="events__inner">
+          <div class="owl-carousel owl-main-affiche owl-loaded owl-drag">
+            <div class="owl-stage-outer">
+              <div class="owl-stage">
+                <div class="owl-item active">
+                  <h2 class="owl-item__title color__gray">Сегодня в Парке</h2>
+                  <div class="item old">
+                    <div class="description__card cards">
+                      <h1 class="description__title color__black">Широкая масленица</h1>
+                      <div class="description__place btn">
+                        <div class="description__place-text left">
+                          <img class="clock icon" src="/sputnik/images/icons/icon-clock.svg" alt="clock">18:00
+                        </div>
+                        <div class="description__place-text right">
+                          <img class="place icon" src="/sputnik/images/icons/icon-place.svg" alt="place">Набережная
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="owl-nav">
+              <div class="owl-prev">
+              </div>
+              <div class="owl-next">
+              </div>
+            </div>
+            <div class="owl-dots">
+              <div class="owl-dot active"><span></span></div>
+              <div class="owl-dot"><span></span></div>
+              <div class="owl-dot"><span></span></div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="description__park">
+      <div class="container-park">
+        <div class="park__inner">
+          <div class="description__park-link">
+            <h2 class="item__title color__blue"><a class="color__blue title-link" href="#">Парк Спутника</a></h2>
+          </div>
+          <div class="description__park-title">
+            <h1 class="park__title color__black">Большe <br> пространства <br> для развлечений</h1>
+            <p class="park__text">Парк Спутника является одним из самых узнаваемых, красивых и комфортабельных мест <br>
+              Пензенской
+              области <br> с развитой инфраструктурой и <br>
+              незабываемой атмосферой!</p>
+          </div>
+          <div class="wrapper">
+            <div id="slider-two" class="owl-carousel owl-main-affiche owl-loaded owl-drag">
+              <div class="owl-stage-outer">
+                <div class="owl-stage">
+                  <div class="owl-item">
+                    <div class="item__park">
+                      <div class="park__img">
+                        <img class="img__slider" src="/sputnik/images/park-img1.png" alt="img">
+                      </div>
+                      <div class="park__bottom-text">
+                        <p class="bottom__text fnt-style">
+                          Что-то про Парк Спутника
+                        </p>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="owl-item">
+                    <div class="item__park">
+                      <div class="park__img">
+                        <img class="img__slider" src="/sputnik/images/park-img2.png" alt="img">
+                      </div>
+                      <div class="park__bottom-text">
+                        <p class="bottom__text">
+                          Что-то про Парк Спутника
+                        </p>
+                      </div>
                     </div>
                   </div>
                 </div>
               </div>
             </div>
           </div>
-        </div>
-        <div class="item__link-btn">
-          <a class="link__btn" href="#">Все про парк</a>
-          <img class="link__arrow" src="/sputnik/images/arrow1.svg" alt="arrow">
+          <div class="item__link-btn">
+            <a class="link__btn" href="#">Все про парк</a>
+            <img class="link__arrow" src="/sputnik/images/arrow1.svg" alt="arrow">
+          </div>
         </div>
       </div>
-    </div>
-  </section>
-  <section class="description__info">
-    <div class="container">
-      <div class="info__inner">
-        <div class="info__title">
-          <a class="link__info" href="#">Инфраструктура</a>
+    </section>
+    <section class="description__info">
+      <div class="container">
+        <div class="info__inner">
+          <div class="info__link">
+            <h2 class="info__link-title">
+              <a class="link__title color__blue" href="#">Инфраструктура</a>
+            </h2>
+          </div>
+          <div class="info__item-list">
+            <div class="info__list-title">
+              <h1 class="info__title">Все необходимое рядом</h1>
+            </div>
+            <div class="item__info"><a class="item__info-link" href="#">Медицина, здоровье</a></div>
+            <div class="item__info"><a class="item__info-link" href="#">Услуги населению</a></div>
+            <div class="item__info"><a class="item__info-link" href="#">Офисы</a></div>
+            <div class="item__info"><a class="item__info-link" href="#">Магазины</a></div>
+            <div class="item__info"><a class="item__info-link" href="#">Рестораны, кафе, бары</a></div>
+            <div class="item__info"><a class="item__info-link" href="#">Набережная</a></div>
+            <div class="item__info"><a class="item__info-link" href="#">Образование</a></div>
+          </div>
+          <div class="info__list">
+            <div class="info__inner-list">
+              <div class="list__item">
+                <a class="list__item-link" href="#">
+                  <div class="contain-img" style="background-image: url('/sputnik/images/info-img1.jpg');">
+                  </div>
+                  <p class="fnt-style">Застройщик</p>
+                </a>
+              </div>
+              <div class="list__item">
+                <a class="list__item-link" href="#">
+                  <div class="contain-img"
+                    style="background-image: url('/upload/resize_cache/iblock/ee8/228_650_1/logo.png');">
+                  </div>
+                  <p class="fnt-style">Управляющая компания</p>
+                </a>
+              </div>
+              <div class="list__item">
+                <a class="list__item-link" href="#">
+                  <div class="contain-img"
+                    style="background-image: url('/upload/resize_cache/iblock/ee8/228_650_1/logo.png');">
+                  </div>
+                  <p class="fnt-style">Инжиниринговая компания</p>
+                </a>
+              </div>
+              <div class="list__item">
+                <a class="list__item-link" href="#">
+                  <div class="contain-img"
+                    style="background-image: url('/upload/resize_cache/iblock/ee8/228_650_1/logo.png');">
+                  </div>
+                  <p class="fnt-style">IT компания</p>
+                </a>
+              </div>
+              <div class="list__item">
+                <a class="list__item-link" href="#">
+                  <div class="contain-img"
+                    style="background-image: url('/upload/resize_cache/iblock/ee8/228_650_1/logo.png');">
+                  </div>
+                  <p class="fnt-style">Отделение банка</p>
+                </a>
+              </div>
+              <div class="list__item">
+                <a class="list__item-link" href="#">
+                  <div class="contain-img"
+                    style="background-image: url('/upload/resize_cache/iblock/ee8/228_650_1/logo.png');">
+                  </div>
+                  <p class="fnt-style">Микрокредитная компания</p>
+                </a>
+              </div>
+            </div>
+          </div>
         </div>
-        <h1 class="info__title-text">Все необходимое рядом</h1>
       </div>
-    </div>
-  </section>
+    </section>
+    <section class="description__systems">
+      <div class="container-systems">
+        <div class="systems__inner">
+          <div class="systems__title-link">
+            <h2 class="title__link"><a class="color__blue item__link" href="#">система лояльности</a></h2>
+          </div>
+          <div class="systems__title">
+            <h1 class="systems__title color__black">Единая карта Города Спутника — привилегии для жителей и гостей</h1>
+            <p class="systems__text">Получите карту жителя или гостя и пользуйтесь всеми привилегиями Города Спутника!
+            </p>
+          </div>
+          <div class="item__card">
+            <img class="item__general-card" src="/sputnik/images/general-card.png" alt="card">
+          </div>
+          <div class="item__btn">
+            <a class="link__btn" href="#">О преимуществах</a>
+            <img class="link__arrow" src="/sputnik/images/arrow1.svg" alt="arrow">
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
   <footer></footer>
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
   <script src="./js/owl.carousel.js"></script>
