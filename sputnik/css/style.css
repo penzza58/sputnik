@@ -118,6 +118,7 @@ letter-spacing: 0em;
 }
 
 .item {
+  min-height: 386px;
   border-radius: 10px;
   border: 1px solid #e0e0e0;
 }
@@ -137,6 +138,8 @@ letter-spacing: 0em;
   margin: 0 0 32px;
 }
 
+
+.description__place,
 .btn {
   display: inline-flex;
   justify-content: space-between;
@@ -173,19 +176,24 @@ letter-spacing: 0em;
   margin: 0;
   padding-bottom: 42px;
 }
+
 .description__card, .cards {
   display: flex;
   flex-direction: column;
-  height: 120px;
   padding: 10px 20px;
 }
+.description__card {
+  padding: 20px 20px;
+}
 
-.old {
+.item__old {
+  border-radius: 10px;
+  border: 1px solid #e0e0e0;
   width: 300px;
+  height: 120px;
   margin-bottom: 80px;
 }
 .park__inner {
-  min-height: 1040px;
   min-width: 320px;
   background: #F2FAFF;
   border-radius: 30px;
@@ -194,17 +202,19 @@ letter-spacing: 0em;
 .item__title {
   display: block;
   margin: 0;
-  padding: 40px 0 0 10px;
+  padding: 40px 0 30px 10px;
 }
 
 .park__title {
   font-size: 36px;
   line-height: 47px;
   padding: 0 10px 30px;
+  margin: 0;
 }
 
 .park__text {
   padding-left: 10px;
+  margin: 0;
 }
 
 .wrapper {
@@ -230,6 +240,11 @@ letter-spacing: 0em;
 
 .park__bottom-text {
   padding-top: 20px;
+}
+
+.row {
+  text-align: center;
+  padding-top: 33px;
 }
 
 .item__link-btn {
@@ -273,6 +288,10 @@ letter-spacing: 0em;
   font-size: 36px;
   font-weight: 500;
   line-height: 47px;
+  margin: 0;
+}
+.info__link {
+  padding-bottom: 16px;
 }
 
 .item__info {
@@ -289,10 +308,11 @@ letter-spacing: 0em;
 
 .info__list {
   width: 960px;
+  height: 208px;
 }
 
 .info__item-list {
-  padding-bottom: 93px;
+  padding-bottom: 71px;
 }
 
 .description__info {
@@ -337,14 +357,40 @@ letter-spacing: 0em;
 
 .systems__inner {
   min-width: 320px;
-  width: 320px;
-  height: 871px;
   background: #F2FAFF;
   border-radius: 30px;
 }
 
 .systems__title-link {
   padding: 40px 0 30px 10px;
+}
+
+.item__link {
+  text-decoration: none;
+}
+ 
+ .title__link {
+   margin: 0;
+ }
+
+ .systems__title-list {
+   padding: 0 10px 50px; 
+}
+
+ .systems__title {
+  font-size: 36px;
+  line-height: 47px;
+  padding-bottom: 31px;
+  margin: 0;
+}
+
+.systems__text {
+  margin: 0;
+}
+
+
+.item__card {
+  padding-left: 10px;
 }
 
 .item__btn {
@@ -356,6 +402,7 @@ letter-spacing: 0em;
   padding: 20px 0 20px 40px;
   margin: 50px 5px 60px 5px;
 }
+
 
 
 footer {
